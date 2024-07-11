@@ -1,0 +1,18 @@
+// matriz//
+
+var clothes = [];
+    clothes.push('Jean');
+    clothes.push('Saco');
+    clothes.push('Medias');
+    clothes.push('Tenis');
+    clothes.push('Camisa');
+    clothes.pop();
+    clothes.push('Camiseta')
+console.log(clothes[2]);
+
+//objeto//
+
+var favCar = {};
+favCar.color = "red";
+favCar.convertible = true;
+console.log(favCar);
