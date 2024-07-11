@@ -1,0 +1,35 @@
+// matriz en objetos adicionando con push()
+
+var fruits = [];
+fruits.push("apple"); // ['apple']
+fruits.push('pear'); // ['apple', 'pear']
+
+//eliminando matrices con pop()
+
+fruits.pop();
+console.log(fruits); // ['apple']
+
+//ejemplo de adicion de matriz en objeto
+
+function arrayBuilder(one, two, three) {
+    var arr = [];
+    arr.push(one);
+    arr.push(two);
+    arr.push(three);
+    console.log(arr);
+}
+
+arrayBuilder('apple', 'pear', 'plum'); // ['apple', 'pear', 'plum']
+
+// usar retrono en lugar de consola
+
+function arrayBuilder(one, two, three) {
+    var arr = [];
+    arr.push(one);
+    arr.push(two);
+    arr.push(three);
+    return arr;
+}
+
+var simpleArr = arrayBuilder('apple', 'pear', 'plum');
+console.log(simpleArr); // ['apple','pear','plum']
