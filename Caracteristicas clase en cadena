@@ -1,0 +1,32 @@
+//Ejemplos
+
+var greet = "Hello, ";
+var place = "World"
+
+//metodo length
+
+greet.length; // 7
+
+// metodo charAt para leer cada caracter individual
+
+greet.charAt(0); // 'H'
+
+//motodo concat une cadenas
+
+"Wo".concat("rl").concat("d"); // 'World'
+
+// metodo indexOf para devolver la ubicacion de la primera posición
+//lastIndexOf encuentra la ultima coincidencia; de lo contrario funciona igual que indexOf.
+
+"ho-ho-ho".indexOf('h'); // 0
+"ho-ho-ho".indexOf('o'); // 1
+"ho-ho-ho".indexOf('-'); // 2
+
+//metodo split corta la cadena de una subcadena
+
+"ho-ho-ho".split("-"); // ['ho', 'ho', 'ho']
+
+//Mayusculas y minusculas.
+
+greet.toUpperCase(); // "HELLO, "
+greet.toLowerCase(); // "hello, "
